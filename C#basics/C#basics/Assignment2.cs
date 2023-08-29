@@ -8,27 +8,28 @@ namespace C_basics
 {
     internal class Assignment2
     {
-        public static void SumOfTwoNumbers(int firstNumber, int secondNumber)
+        public static int SumOfTwoNumbers(int firstNumber, int secondNumber)
         {
             int sum = firstNumber + secondNumber;
-            Console.WriteLine("Sum of " + firstNumber + "+" + secondNumber + " is: " + sum);
+
+            return sum;
         }
 
-        public static void SubstractionOfTwoNumbers(int firstNumber, int secondNumber)
+        public static int SubstractionOfTwoNumbers(int firstNumber, int secondNumber)
         {
             int sub = firstNumber - secondNumber;
-            Console.WriteLine("Substraction of " + firstNumber + "-" + secondNumber + " is: " + sub);
+            return sub;
         }
 
-        public static void MultiplicationOfTwoNumbers(int firstNumber, int secondNumber)
+        public static int MultiplicationOfTwoNumbers(int firstNumber, int secondNumber)
         {
-            float rez = (float)firstNumber * (float)secondNumber;
-            Console.WriteLine("Multiplication of " + firstNumber + "*" + secondNumber + " is: " + rez);
+            int rez = firstNumber * secondNumber;
+            return rez;  
         }
-        public static void DivisionOfTwoNumbers(int firstNumber, int secondNumber)
+        public static float DivisionOfTwoNumbers(int firstNumber, int secondNumber)
         {
             float rez = (float)firstNumber / (float)secondNumber;
-            Console.WriteLine("Divizion of " + firstNumber + "/" + secondNumber + " is: " + rez);
+            return rez;
         }
     }
 }

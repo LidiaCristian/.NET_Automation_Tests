@@ -22,10 +22,10 @@ namespace C_basics
             Assignment1.ResultEx4c();
             Assignment1.ResultEx4d();
 
-            Assignment2.SumOfTwoNumbers(firstNumber, secondNumber);
-            Assignment2.SubstractionOfTwoNumbers(firstNumber, secondNumber); 
-            Assignment2.MultiplicationOfTwoNumbers(firstNumber, secondNumber);
-            Assignment2.DivisionOfTwoNumbers(firstNumber, secondNumber);
+            Console.WriteLine("Rezultatul adunarii est: " + Assignment2.SumOfTwoNumbers(firstNumber, secondNumber));
+            Console.WriteLine("Rezultatul scaderii est: " + Assignment2.SubstractionOfTwoNumbers(firstNumber, secondNumber));
+            Console.WriteLine("Rezultatul inmultirii est: " + Assignment2.MultiplicationOfTwoNumbers(firstNumber, secondNumber));
+            Console.WriteLine("Rezultatul impartirii est: " + Assignment2.DivisionOfTwoNumbers(firstNumber, secondNumber));
         }
     }
 }
