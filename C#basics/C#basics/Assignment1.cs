@@ -8,24 +8,8 @@ namespace C_basics
 {
     class Assignment1
     {
-        static void Main(string[] args)
+        public static void PrintMyName()
         {
-            int firstNumber, secondNumber;
-
-            PrintMyName();
-
-            firstNumber = Convert.ToInt32(ReadNumberFromConsole());
-            secondNumber = Convert.ToInt32(ReadNumberFromConsole());
-            SumOfTwoNumbers(firstNumber, secondNumber);
-            DivisionOfTwoNumbers(firstNumber, secondNumber);    
-
-            ResultEx4a();
-            ResultEx4b();
-            ResultEx4c();
-            ResultEx4d();
-        }
-
-        public static void PrintMyName() {
             //1. Printati "Hello" in consola, iar pe rand nou, printati numele vostru.
             Console.WriteLine("Ex.1:");
             Console.WriteLine("Hello \nLidia\n");
@@ -50,10 +34,11 @@ namespace C_basics
         {
             //3. Printati rezultatul impartirii a doua numere. Atentie, daca numarul nu este intreg, sa afiseze si valorile dupa virgula.
             float rez = (float)firstNumber / (float)secondNumber;
-            Console.WriteLine("Ex.3. Divizion of " + firstNumber + "+" + secondNumber + " is: " + rez);
+            Console.WriteLine("Ex.3. Divizion of " + firstNumber + "/" + secondNumber + " is: " + rez);
         }
 
-        public static void ResultEx4a() {
+        public static void ResultEx4a()
+        {
             float rez = -5 + 8 * 6;
             Console.WriteLine("Ex.4.a. Result of  -5 + 8 * 6 is: " + rez);
         }
