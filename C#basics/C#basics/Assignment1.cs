@@ -17,7 +17,7 @@ namespace C_basics
 
         public static int ReadNumberFromConsole()
         {
-            Console.Write("Enter first number: ");
+            Console.Write("Enter a number: ");
             string val1 = Console.ReadLine();
             int consoleNumber = Convert.ToInt32(val1);
             return consoleNumber;

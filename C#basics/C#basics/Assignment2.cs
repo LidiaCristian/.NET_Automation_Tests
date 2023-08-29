@@ -31,5 +31,32 @@ namespace C_basics
             float rez = (float)firstNumber / (float)secondNumber;
             return rez;
         }
+
+        public static void WriteCSharpOnCommandLine(){
+            Console.WriteLine("   C C C           /            /\n" +
+                              "C             ----/------------/----\n" +
+                              "C                /            /\n" +
+                              "C               /            /\n" +
+                              "C          ----/------------/----\n" +
+                              "   C C C      /            /\n");
+        }
+
+        public static float arithmeticMean(int num1, int num2, int num3)
+        {
+            float arithmeticMean = (float)((num1 + num2 + num3) / 3);
+            return arithmeticMean;
+        }
+
+        public static int remainderOfTheNumberDivizion(int num1, int num2)
+        {
+            int divisionReminder = num1%num2;
+            return divisionReminder;
+        }
+
+        public static double convertoTemperatureFromFToC(double f)
+        {
+            double convertoTemperatureToC = ((f - 32)*5)/9;
+            return convertoTemperatureToC;
+        }
     }
 }
