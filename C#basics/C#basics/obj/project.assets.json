@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lidiacristian\\source\\repos\\C#basics\\C#basics\\C#basics.csproj",
+      "projectUniqueName": "C:\\Users\\lidiacristian\\source\\repos\\LidiaCristian\\.NET_Automation_Tests\\C#basics\\C#basics\\C#basics.csproj",
       "projectName": "C#basics",
-      "projectPath": "C:\\Users\\lidiacristian\\source\\repos\\C#basics\\C#basics\\C#basics.csproj",
+      "projectPath": "C:\\Users\\lidiacristian\\source\\repos\\LidiaCristian\\.NET_Automation_Tests\\C#basics\\C#basics\\C#basics.csproj",
       "packagesPath": "C:\\Users\\lidiacristian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lidiacristian\\source\\repos\\C#basics\\C#basics\\obj\\",
+      "outputPath": "C:\\Users\\lidiacristian\\source\\repos\\LidiaCristian\\.NET_Automation_Tests\\C#basics\\C#basics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
